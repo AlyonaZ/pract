@@ -1,15 +1,7 @@
   105  mkdir laba1-3
   106  cd laba1-3
   107  git init
-  108  git add
   109  git add .
-  110  git clone http:/github.com/AlyonaZ/UNIX
-  111  cd ./
-  112  cd ../
-  113  cg ~/.ssh
-  114  cd ~/.ssh
-  115  sudo apt install ssh-keygen
-  116  cd laba1-3
   117  git clone https://github.com/AlyonaZ/UNIX.git
   118  git clone ~/git/test
   119  mk dir git/test
