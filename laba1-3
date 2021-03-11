@@ -1,0 +1,29 @@
+  105  mkdir laba1-3
+  106  cd laba1-3
+  107  git init
+  108  git add
+  109  git add .
+  110  git clone http:/github.com/AlyonaZ/UNIX
+  111  cd ./
+  112  cd ../
+  113  cg ~/.ssh
+  114  cd ~/.ssh
+  115  sudo apt install ssh-keygen
+  116  cd laba1-3
+  117  git clone https://github.com/AlyonaZ/UNIX.git
+  118  git clone ~/git/test
+  119  mk dir git/test
+  120  mkdir ~/git/test
+  121  mkdir git/test
+  122  git clone https://github.com/AlyonaZ/UNIX.git ~/git/test
+  123  touch ~/git/test/backup.sh
+  124  git commit -m "commit1"
+  125  git add .
+  126  git status
+  127  git commit -m "commit1"
+  128  git push -all
+  129  git push --all
+  130  git remote add laba1-3 https://github.com/AlyonaZ/UNIX.git
+  131  git push --all
+  132  git push laba1-3
+  133  history > laba1-3
