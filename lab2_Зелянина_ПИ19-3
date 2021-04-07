@@ -1,0 +1,35 @@
+   44  mkdir ./laba2
+   45  cd laba2
+   46  git init
+   47  git status
+   50  touch laba2
+   51  git status
+   52  git add laba2
+   53  git status
+   54  git commit -m
+   55  git commit -m "Test"
+   69  touch "laba2-2"
+   70  git add laba2-2
+   71  git commit -m "test 2"
+   72  git log
+   74  touch laba2-3
+   75  git add laba2-3
+   76  git commit -am "test 3"
+   77  touch laba2-4
+   78  touch laba2-5
+   79  touch laba2-6
+   81  git add .
+   82  git status
+   83  python3 -m venv myenv
+   84  source myenv/bin/activate
+   85  activate
+   88  mv laba2 .gitignore
+   89  git branch laba2_branch
+   90  git checkout -b laba2_branch
+   91  git checkout laba2_branch
+   92  git branch
+   93  touch laba2-15
+   94  git add laba2-15
+   95  git checkout master
+   96  git merge laba2_branch
+   97  history > laba2_history

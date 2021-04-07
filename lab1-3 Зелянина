@@ -1,0 +1,30 @@
+  105  mkdir laba1-3
+  106  cd laba1-3
+  107  git init
+  109  git add .
+  110  git clone http:/github.com/AlyonaZ/UNIX
+  117  git clone https://github.com/AlyonaZ/UNIX.git
+  118  git clone ~/git/test
+  121  mkdir git/test
+  122  git clone https://github.com/AlyonaZ/UNIX.git ~/git/test
+  123  touch ~/git/test/backup.sh
+  124  git commit -m "commit1"
+  125  git add .
+  126  git status
+  127  git commit -m "commit1"
+  129  git push --all
+  130  git remote add laba1-3 https://github.com/AlyonaZ/UNIX.git
+  131  git push --all
+  135  git push laba1-3
+  136  git push --set-upstream laba1-3 master
+  137  git add .
+  139  git commit -m "task9"
+  140  git commit -m "task11"
+  141  git commit -a
+  142  git status
+  143  git push
+  144  git log
+  145  git checkout task9
+  146  git add .
+  147  git checkout task9
+  148  history > lab1-3
